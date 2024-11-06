@@ -10,7 +10,7 @@ Cybersecurity and data privacy 2024 - Blended
 |    4.11.2024  |    1    |   Cisco Cybersecurity    | online/offline identity information      |
 |   4.11.2024   |    1    |    Cisco Cybersecurity   |    about organizational data security   |
 |  6.11.2024    |    1    |   Cisco Cybersecurity    |  about Cyber Attackers and cyber warfare     |
-|    6.11.2024  |  1      |   Cisco Cybersecurity    |     about attacks, concepts and techniques  |
+|    6.11.2024  |  1      |   Cisco Cybersecurity    |     different types of malware aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
