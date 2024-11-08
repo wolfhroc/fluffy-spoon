@@ -13,7 +13,7 @@ Cybersecurity and data privacy 2024 - Blended
 |    6.11.2024  |  1      |   Cisco Cybersecurity    |     different types of malware, infiltration methods, Security vulnerabilities |
 |   8.11.2024   |  2      |   Cisco Cybersecurity    |   About data privacy, public wifi security, why its important to read Terms when signing up and about how to choose good and secure passwords    |
 |    8.11.2024  |   1     |    Cisco Cybersecurity    |   About firewalls and protection    |
-|      |        |       |       |
+|   8.11.2024   |   1    |    Cisco Cybersecurity  |  Exam     |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
@@ -27,4 +27,4 @@ Cybersecurity and data privacy 2024 - Blended
 |      |        |       |       |
 |      |        |       |       |
 
-Total hours used: 4
+Total hours used: 11
