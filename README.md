@@ -14,6 +14,10 @@ Cybersecurity and data privacy 2024 - Blended
 |   8.11.2024   |  2      |   Cisco Cybersecurity    |   About data privacy, public wifi security, why its important to read Terms when signing up and about how to choose good and secure passwords    |
 |    8.11.2024  |   1     |    Cisco Cybersecurity    |   About firewalls and protection    |
 |   8.11.2024   |   1    |    Cisco Cybersecurity  |  Exam     |
+|   10.11.2024   |   1     |   Porstwigger    |  Exploring portswigger     |
+|  11.11.2024    | 1       |    Porstwigger   |  Learned what is SQL injection     |
+|    11.11.2024  |  1      |   Porstwigger    |    Learned more about SQL injection   |
+|      |        |   Porstwigger    |       |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
@@ -22,9 +26,3 @@ Cybersecurity and data privacy 2024 - Blended
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-
-Total hours used: 11
