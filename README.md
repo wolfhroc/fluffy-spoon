@@ -20,7 +20,7 @@ Cybersecurity and data privacy 2024 - Blended
 |   12.11.2024   |    2    |   Week 3 lecture recording    |   I didnt get much from the recording because I didnt understand much about the subject.    |
 |   12.11.2024   |     2   |    Portswigger   |   Learned more about SQL injection    |
 |    12.11.2024  | 2       |   Portswigger    |   Learned about authentication and little bit about how to brute-force attack. I also did one lab from access control but it did not open for me what I did there even I completed one lab   |
-|      |        |       |       |
+|   14.11.2024   |   2     |  Week 3 assignment     |  Learning how to use docker and starting to do the Booking System Project Phase 1     |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
