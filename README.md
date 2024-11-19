@@ -22,7 +22,7 @@ Cybersecurity and data privacy 2024 - Blended
 |    12.11.2024  | 2       |   Portswigger    |   Learned about authentication and little bit about how to brute-force attack. I also did one lab from access control but it did not open for me what I did there even I completed one lab   |
 |   14.11.2024   |   2     |  Week 3 assignment     |  Learning how to use docker and starting to do the Booking System Project Phase 1     |
 |   18.11.2024   |   2     |    Lecture   |       |
-|      |        |       |       |
+|     19.11.2024 |    3    |   Phase 1    |   Trying to do the Phase 1 assignment. If nothing else at least I am learning slowly how to use github.    |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
