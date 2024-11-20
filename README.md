@@ -23,6 +23,11 @@ Cybersecurity and data privacy 2024 - Blended
 |   14.11.2024   |   2     |  Week 3 assignment     |  Learning how to use docker and starting to do the Booking System Project Phase 1     |
 |   18.11.2024   |   2     |    Lecture   |       |
 |     19.11.2024 |    3    |   Phase 1    |   Trying to do the Phase 1 assignment. If nothing else at least I am learning slowly how to use github.    |
-|      |        |       |       |
+|   20.11.2024   |     2   |   Phase 1    |  Link to first ZAP report: https://github.com/wolfhroc/fluffy-spoon/blob/main/first_security_test_reg_page.md
+ what I did between that and the final report:
+ Added the CSP to the code (with AI)
+Added X-Content-Type-Options -header to app
+Added form-action directive
+Link to final report:  https://github.com/wolfhroc/fluffy-spoon/blob/main/fixed_zap_attack_alerts.md   |
 |      |        |       |       |
 |      |        |       |       |
