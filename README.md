@@ -27,7 +27,7 @@ Cybersecurity and data privacy 2024 - Blended
 |  25.11.2024    |  2      |  Lecture     |  About authentication and authorisation     |
 |   25.11.2024   |   2     |  Phase 2     |  Trying to do the Phase 2 but got stuck. For some reason I cant update the tables to docker. Will continue with this later    |
 |  27.11.2024    |  2      |  Phase 2     |  Solved the problem with tables and continued doing the assignment. Testing login page and its working.     |
-|      |        |       |       |
+|    27.11.2024  |   1     | Phase 2      |  Attack report: https://github.com/wolfhroc/fluffy-spoon/blob/main/ZAP%20tests/complete_attack_test.md for some reason I didnt get any important flags there. I used your files from github so can it be that you have already fixed all the vulnerabilities and thats why I didnt get any?     |
 |      |        |       |       |
 |      |        |       |       |
 |      |        |       |       |
