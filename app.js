@@ -11,6 +11,9 @@ let connectionInfo = {};
 // In-memory session store (replace with a database in production)
 const sessionStore = new Map();
 
+// IP whitelist
+const allowedIPs = ["127.0.0.1"]; // Korvaa tämä omilla IP-osoitteillasi
+
 // Middleware to set security headers globally
 async function addSecurityHeaders(req, handler) {
     const response = await handler(req);
@@ -18,15 +21,24 @@ async function addSecurityHeaders(req, handler) {
     // Set security headers
     response.headers.set("Content-Security-Policy",
         "default-src 'self'; " +
-        "script-src 'self'; " +
-        "style-src 'self'; " +
-        "img-src 'self'; " +
+        "script-src 'self' https://example.com https://www.googletagmanager.com; " +
+        "style-src 'self' https://example.com https://fonts.googleapis.com; " +
+        "img-src 'self' https://example.com https://s3.amazonaws.com; " +
         "frame-ancestors 'none'; " +
         "form-action 'self';"); // Allow form submissions only to your domain
     response.headers.set("X-Frame-Options", "DENY"); // Prevent Clickjacking
     response.headers.set("X-Content-Type-Options", "nosniff"); // Prevent MIME type sniffing
+    response.headers.set("Access-Control-Allow-Origin", "https://your-allowed-domain.com"); // Set allowed domains for CORS
 
     return response;
+}
+
+// IP address whitelisting
+function checkIPWhitelist(req) {
+    const forwardedFor = req.headers.get("x-forwarded-for");
+    const ip = forwardedFor ? forwardedFor.split(",")[0] : "127.0.0.1"; // Default to localhost if not available
+    console.log(`Request from IP: ${ip}`); // Log the IP address for debugging
+    return allowedIPs.includes(ip);
 }
 
 // Serve static files
@@ -43,6 +55,11 @@ async function serveStaticFile(path, contentType) {
 
 // Handle incoming requests
 async function handler(req) {
+    // Check IP whitelist
+    if (!checkIPWhitelist(req)) {
+        return new Response("Forbidden", { status: 403 });
+    }
+
     const url = new URL(req.url);
 
     // Route: Serve static files
@@ -58,7 +75,6 @@ async function handler(req) {
 
         if (session) {
             return await handleIndex(req);
-
         }
         return await handleDefaultIndex(req);
     }

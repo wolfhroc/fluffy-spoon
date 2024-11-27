@@ -1,7 +1,7 @@
 # ZAP Security Report
 
 ## Summary
-- Total Alerts: 41
+- Total Alerts: 40
 
 ### Authentication Request Identified
 - **Risk Level:** 0
@@ -29,21 +29,15 @@ Configure the "Access-Control-Allow-Origin" HTTP header to a more restrictive se
 - **Description:** Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.
 - **Solution:** Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.
 
-### CSP: script-src unsafe-eval
-- **Risk Level:** 2
-- **URL:** http://localhost:8000/
-- **Description:** Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.
-- **Solution:** Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.
-
 ### User Agent Fuzzer
 - **Risk Level:** 0
-- **URL:** http://localhost:8000/static/styles.css
+- **URL:** http://localhost:8000/
 - **Description:** Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.
 - **Solution:** 
 
 ### User Agent Fuzzer
 - **Risk Level:** 0
-- **URL:** http://localhost:8000/
+- **URL:** http://localhost:8000/static/styles.css
 - **Description:** Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.
 - **Solution:** 
 
