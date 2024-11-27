@@ -21,9 +21,9 @@ async function addSecurityHeaders(req, handler) {
     // Set security headers
     response.headers.set("Content-Security-Policy",
         "default-src 'self'; " +
-        "script-src 'self' https://example.com https://www.googletagmanager.com; " +
-        "style-src 'self' https://example.com https://fonts.googleapis.com; " +
-        "img-src 'self' https://example.com https://s3.amazonaws.com; " +
+        "script-src 'self' ; " +
+        "style-src 'self' ; " +
+        "img-src 'self' ; " +
         "frame-ancestors 'none'; " +
         "form-action 'self';"); // Allow form submissions only to your domain
     response.headers.set("X-Frame-Options", "DENY"); // Prevent Clickjacking
