@@ -28,12 +28,8 @@ Cybersecurity and data privacy 2024 - Blended
 |   25.11.2024   |   2     |  Phase 2     |  Trying to do the Phase 2 but got stuck. For some reason I cant update the tables to docker. Will continue with this later    |
 |  27.11.2024    |  2      |  Phase 2     |  Solved the problem with tables and continued doing the assignment. Testing login page and its working.     |
 |    27.11.2024  |   1     | Phase 2      |  Attack report: https://github.com/wolfhroc/fluffy-spoon/blob/main/ZAP%20tests/complete_attack_test.md got few alerts. Used co-pilot to help to remove unsafe-eval setting. Updated report: https://github.com/wolfhroc/fluffy-spoon/blob/main/ZAP%20tests/complete_attack_test_2.md After that I used Co-pilot to remove the unsafe-inline error and report after doing that: https://github.com/wolfhroc/fluffy-spoon/blob/main/ZAP%20tests/complete_attack_test_3.md |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
-|      |        |       |       |
+|   1.12.2024   |   2     |   Phase 2    |  Trying the system how it works     |
+|    4.12.2024  |    2    |   Phase 3    |   Trying to do the phase 3    |
+|   7.12.2024   |    1    |  Phase 3     |  Last time trying to do the phase 3 but I replaced all my own files with the working system and gave up with this thing     |
 
+Total hours used: 41
